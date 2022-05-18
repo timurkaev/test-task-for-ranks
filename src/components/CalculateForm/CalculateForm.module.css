@@ -1,0 +1,22 @@
+.input{
+    width: 200px;
+    border: 1px solid gray;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.select {
+    width: 200px;
+    border: 1px solid gray;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.select:disabled {
+    background: #dddddd;
+    opacity: .3;
+}

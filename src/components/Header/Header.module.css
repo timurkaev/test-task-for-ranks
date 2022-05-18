@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 50px;
+    margin-bottom: 14px;
+    z-index: 1;
+}
+
+.classlist {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.classlist > li {
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+}
